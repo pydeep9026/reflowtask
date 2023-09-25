@@ -1,0 +1,126 @@
+.menubar{
+  background-color: #f2f2f2;
+  width: 16rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menubar img{
+  width: 100px;
+  position: absolute;
+  top: 10px;
+}
+
+.menubar .switch{
+  position: absolute;
+  top: 10px;
+}
+
+.menubar .menu{
+  position: absolute;
+  top: 130px;
+}
+
+
+.header{
+  position: absolute;
+  top: 10px;
+  margin-left: 17rem;
+
+}
+
+.badge{
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: -10px;
+}
+
+.stats{
+  width: 80rem;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.stats img{
+  width: 100%;
+}
+
+.table{
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  width: 75rem;
+}
+
+.sidelines{
+  display: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .sidelines1{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sidelines1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sidelines1 button{
+    width: 100%;
+    height: 80px;
+    background-color: #B3CD93;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .sidelines2{
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sidelines2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sidelines2 button{
+    width: 100px;
+    height: 30px;
+    background-color: #B3CD93;
+    border: none;
+    margin-left: 100px;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+  }
+
+ 
+}
